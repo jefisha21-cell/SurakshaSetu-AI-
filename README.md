@@ -39,7 +39,8 @@ There is currently no system that protects their income during such uncontrollab
 
 ## 🏗️ System Architecture
 
-> Architecture diagram — to be added at `/assets/architecture.png`
+> ![Architecture Diagram](./assets/architecture.png)
+
 
 ---
 
