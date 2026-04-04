@@ -1,0 +1,138 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #EEF4FF 0%, #dce8ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 56px;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 4px 12px rgba(26,115,232,0.3));
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1A73E8;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 8px 40px rgba(26,115,232,0.12);
+  text-align: left;
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1A73E8;
+  margin-bottom: 24px;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.input {
+  width: 100%;
+  border: 1.5px solid #dde3f0;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #222;
+  background: #fafbff;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: #1A73E8;
+  background: #fff;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 13px;
+  margin-bottom: 12px;
+  background: #fff0f0;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.info {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  background: #1A73E8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s, transform 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+}
+
+.btn:hover:not(:disabled) {
+  background: #1558b0;
+}
+
+.btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  background: #93b8f5;
+  cursor: not-allowed;
+}
+
+.btnSpinner {
+  width: 20px;
+  height: 20px;
+  border: 2.5px solid rgba(255,255,255,0.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
